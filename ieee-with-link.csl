@@ -171,11 +171,11 @@
         <group delimiter=". ">
           <group delimiter=": ">
             <text term="available at" text-case="capitalize-first"/>
-            <text value="<a href=">
+            <text value="&lt;a href=">
             <text variable="URL" />
-            <text value=">" />
+            <text value="&gt;" />
             <text variable="URL" />
-            <text value="</a>" />
+            <text value="&lt;/a&gt;" />
           </group>
           <group prefix="[" suffix="]" delimiter=": ">
             <text term="accessed" text-case="capitalize-first"/>
