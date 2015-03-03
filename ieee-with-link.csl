@@ -171,6 +171,8 @@
         <group delimiter=". ">
           <group delimiter=": ">
             <text term="available at" text-case="capitalize-first"/>
+<!-- this is broken due to too much escaping.
+For now I switch to using jekyll scholar's entry.URL and ieee.csl alone-->
             <text value="&lt;a href=" />
             <text variable="URL" />
             <text value="&gt;" />
