@@ -171,7 +171,7 @@
         <group delimiter=". ">
           <group delimiter=": ">
             <text term="available at" text-case="capitalize-first"/>
-            <text value="&lt;a href=">
+            <text value="&lt;a href=" />
             <text variable="URL" />
             <text value="&gt;" />
             <text variable="URL" />
